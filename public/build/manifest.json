@@ -1,4 +1,11 @@
 {
+  "_app-logo-icon-DZoX4Ay7.js": {
+    "file": "assets/app-logo-icon-DZoX4Ay7.js",
+    "name": "app-logo-icon",
+    "imports": [
+      "_wayfinder-DgLnOcPV.js"
+    ]
+  },
   "_appearance-Ce4Pwddg.js": {
     "file": "assets/appearance-Ce4Pwddg.js",
     "name": "appearance",
@@ -327,7 +334,7 @@
     ]
   },
   "resources/css/app.css": {
-    "file": "assets/app-uvFrGKjm.css",
+    "file": "assets/app-kaSrCoyW.css",
     "name": "app",
     "names": [
       "app.css"
@@ -336,7 +343,7 @@
     "isEntry": true
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-B_HL43qx.js",
+    "file": "assets/app-D5ZkAxOm.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,
@@ -356,6 +363,7 @@
       "_input-DzdTtxmN.js",
       "_separator-BwaB7_R3.js",
       "_sheet-BAANEt9n.js",
+      "_app-logo-icon-DZoX4Ay7.js",
       "_routes-CyfDnLgD.js",
       "_profile-CovpLcNS.js",
       "_heading-3qi3b3Nk.js",
@@ -604,12 +612,13 @@
     ]
   },
   "resources/js/pages/welcome.tsx": {
-    "file": "assets/welcome-Cn9JQyES.js",
+    "file": "assets/welcome-D8fcqmCf.js",
     "name": "welcome",
     "src": "resources/js/pages/welcome.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_wayfinder-DgLnOcPV.js",
+      "_app-logo-icon-DZoX4Ay7.js",
       "_routes-CyfDnLgD.js"
     ]
   }
