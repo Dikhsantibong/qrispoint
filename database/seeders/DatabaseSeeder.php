@@ -22,6 +22,11 @@ class DatabaseSeeder extends Seeder
             'email' => 'viewer@qrispoint.test',
         ]);
 
+        User::factory()->dataCoordinator()->create([
+            'name' => 'Koordinator Data',
+            'email' => 'datacoordinator@qrispoint.test',
+        ]);
+
         $this->call([
             MarketSeeder::class,
             AgentSeeder::class,

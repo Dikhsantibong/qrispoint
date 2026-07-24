@@ -59,6 +59,16 @@ class UserFactory extends Factory
     }
 
     /**
+     * Indicate that the user is a data coordinator.
+     */
+    public function dataCoordinator(): static
+    {
+        return $this->state(fn (array $attributes) => [
+            'role' => UserRole::DataCoordinator,
+        ]);
+    }
+
+    /**
      * Indicate that the user is a viewer (read-only stakeholder).
      */
     public function viewer(): static
